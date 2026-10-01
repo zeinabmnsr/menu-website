@@ -3,125 +3,337 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="blog.css">
-    <title>BLOG</title>
+
+    <title>Blog | Sweet Recipe</title>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark
-     fixed-top navbar-light justify-content-center">
-     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="images/goldlogo.png" alt="logo" style="width: 60px;" class="rounded-pill"></a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html" style="color: rgb(140, 141, 77);">Home</a>
-            </li>
-            <li class="nan-item">
-                <a class="nav-link" href="#" style="color: rgb(140, 141, 77);"> Explore</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contact.html" style="color: rgb(140, 141, 77);">Contact</a>
-            </li>
-        </ul>
-    </div>
-    </nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-dark">
+        <div class="container">
 
-<div class="container">
-    <div class="carousel d-flex justify-content-center">
-        <div class="carousel slide" id="demo" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#demo" data-bs-side-to="2"aria-label="Slide 3" ></button> 
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active pt-2">
-                    <div class="container d-flex justify-content-center gap-3 py-4">
-                        <div class="card w-25">
-                            <img src="images/darkcake.jpg" class="card-img-top" alt="story1"/>
-                            <div class="card-body">
-                                <div class="card-title">story1 </div>
-                                <div class="card-text">this is the first storyy</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">story1 </div>
-                                <div class="card-text">this is the first storyy</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">story1 </div>
-                                <div class="card-text">this is the first storyy</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container d-flex justify-content-center gap-3 py-4">
-                        <div class="card w-25">
-                            <img src="images/darkcake.jpg" class="card-img-top" alt="story1"/>
-                            <div class="card-body">
-                                <div class="card-title">story1 </div>
-                                <div class="card-text">this is the first storyy</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">story1 </div>
-                                <div class="card-text">this is the first storyy</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">story1 </div>
-                                <div class="card-text">this is the first storyy</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container d-flex justify-content-center">
-                       <div class="row">
-                            <div class="col-lg-4 card w-25">
-                                <img src="images/darkcake.jpg" class="card-img-top" alt="story1"/>
-                                <div class="card-body">
-                                    <div class="card-title">story1 </div>
-                                    <div class="card-text">this is the first storyy</div>
-                                    <a href="#" class="btn btn-dark">read more</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 card w-25">
-                                <img src="images/darkcake.jpg" class="card-img-top" alt="story2"/>
-                                <div class="card-title">story 2</div>
-                                <div class="card-text">this is the story 2</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                            <div class="col-lg-4 card w-25">
-                                <img src="images/cake.jpg" class="card-img-top" alt="story3"/>
-                                <div class="card-title">story3</div>
-                                <div class="card-text">this is story 3</div>
-                                <a href="#" class="btn btn-dark">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/goldlogo.png"
+                     alt="Sweet Recipe Logo"
+                     style="width: 60px;"
+                     class="rounded-pill">
+            </a>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden" > previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"  aria-hidden="true"></span>
-                <span class="visually-hidden">next</span>
-            </button>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="BLOG.html">
+                        Blog
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
 
         </div>
-    </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </nav>
+
+
+    <!-- Blog Header -->
+    <section class="blog-header text-center">
+        <div class="container">
+
+            <h1>Stories from Sweet Recipe</h1>
+
+            <p>
+                Discover delicious recipes, kitchen secrets,
+                and stories from our table.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- Featured Article -->
+    <section class="container mb-5">
+
+        <div class="featured-article row align-items-center g-0">
+
+            <div class="col-lg-7">
+                <img src="images/darkcake.jpg"
+                     class="img-fluid featured-image"
+                     alt="Homemade chocolate cake">
+            </div>
+
+            <div class="col-lg-5 featured-content">
+
+                <span class="article-category">
+                    Featured Story
+                </span>
+
+                <h2>
+                    The Secret Behind Perfect Homemade Desserts
+                </h2>
+
+                <p>
+                    Great desserts are more than just ingredients.
+                    Discover how fresh ingredients, patience,
+                    and a little creativity can transform a simple
+                    recipe into something unforgettable.
+                </p>
+
+                <a href="#" class="btn btn-dark">
+                    Read More
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Latest Stories -->
+    <section class="container latest-stories">
+
+        <div class="text-center mb-4">
+
+            <h2>Latest Stories</h2>
+
+            <p>
+                A few delicious stories from our kitchen.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Article 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <article class="card blog-card h-100">
+
+                    <img src="images/cake.jpg"
+                         class="card-img-top"
+                         alt="Italian dessert">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <span class="article-category">
+                            Desserts
+                        </span>
+
+                        <h3 class="card-title">
+                            The Art of Making the Perfect Tiramisu
+                        </h3>
+
+                        <p class="card-text">
+                            Creamy, rich, and delicious.
+                            Learn what makes a classic tiramisu
+                            so special.
+                        </p>
+
+                        <a href="#" class="read-more mt-auto">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Article 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <article class="card blog-card h-100">
+
+                    <img src="images/darkcake.jpg"
+                         class="card-img-top"
+                         alt="Fresh ingredients">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <span class="article-category">
+                            Ingredients
+                        </span>
+
+                        <h3 class="card-title">
+                            Why Fresh Ingredients Matter
+                        </h3>
+
+                        <p class="card-text">
+                            From fresh fruits to quality chocolate,
+                            discover why ingredients make all the
+                            difference.
+                        </p>
+
+                        <a href="#" class="read-more mt-auto">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Article 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <article class="card blog-card h-100">
+
+                    <img src="images/cake.jpg"
+                         class="card-img-top"
+                         alt="Italian food">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <span class="article-category">
+                            Italian Cuisine
+                        </span>
+
+                        <h3 class="card-title">
+                            5 Italian Dishes You Need to Try
+                        </h3>
+
+                        <p class="card-text">
+                            Explore some of the most loved flavors
+                            and dishes from Italian cuisine.
+                        </p>
+
+                        <a href="#" class="read-more mt-auto">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Article 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <article class="card blog-card h-100">
+
+                    <img src="images/darkcake.jpg"
+                         class="card-img-top"
+                         alt="Cooking herbs">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <span class="article-category">
+                            Kitchen Tips
+                        </span>
+
+                        <h3 class="card-title">
+                            A Guide to Italian Herbs & Spices
+                        </h3>
+
+                        <p class="card-text">
+                            Learn how simple herbs and spices can
+                            completely change the flavor of a dish.
+                        </p>
+
+                        <a href="#" class="read-more mt-auto">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Article 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <article class="card blog-card h-100">
+
+                    <img src="images/cake.jpg"
+                         class="card-img-top"
+                         alt="Restaurant kitchen">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <span class="article-category">
+                            Behind the Scenes
+                        </span>
+
+                        <h3 class="card-title">
+                            From Our Kitchen to Your Table
+                        </h3>
+
+                        <p class="card-text">
+                            Take a look behind the scenes and discover
+                            the passion that goes into every plate.
+                        </p>
+
+                        <a href="#" class="read-more mt-auto">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Article 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <article class="card blog-card h-100">
+
+                    <img src="images/darkcake.jpg"
+                         class="card-img-top"
+                         alt="Homemade cooking">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <span class="article-category">
+                            Recipes
+                        </span>
+
+                        <h3 class="card-title">
+                            Simple Recipes, Beautiful Moments
+                        </h3>
+
+                        <p class="card-text">
+                            Sometimes the simplest recipes create
+                            the most memorable moments around the table.
+                        </p>
+
+                        <a href="#" class="read-more mt-auto">
+                            Read More →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
