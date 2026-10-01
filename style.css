@@ -1,0 +1,148 @@
+.login{
+    background-color: rgba(129, 129, 187, 0.411);
+}
+.login-card{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+    
+}
+.btn-login{
+    background-color: rgb(140, 141, 77);
+    border-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.home{
+    
+    background-size: cover;
+}
+.home{
+    background-image: url('images/backgrounds/darkbg.jpg');
+    
+    opacity: 0.5px;
+}
+.navbar-nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.nav-item{
+    justify-content: start;
+}
+.search-box{
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.search{
+    width: 200px;
+    height: 25px;
+    background-color: rgb(239, 240, 196);
+}
+.search-btn{
+    padding-top: 0px;
+    color: rgb(239, 240, 196);
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(140, 141, 77);
+    height: 25px;
+    border-radius: 0%;
+}
+
+#carousel-design{
+    margin-top: 85px;
+}
+
+.carousel-img{
+    object-fit: cover;
+}
+.carousel-item{
+    height: 400px;
+}
+
+.name{
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(246, 246, 219);
+}
+.custom-caption {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    right: 5%;
+    text-align: left;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6); 
+  }
+  
+.quote{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(246, 246, 219);
+}
+#nav-menu{
+    color: rgb(31, 24, 25);
+    background-color: rgb(140, 141, 77);
+    border-style: none;
+}
+#nav-menu.active{
+    color:  rgb(31, 24, 25);
+    background-color: rgb(194, 216, 142);
+}
+#nav-menu:hover{
+    color: rgb(140, 141, 77);
+    background-color:rgb(31, 24, 25);
+}
+
+#mainDishes{
+    color: rgb(31, 24, 25);
+    font-size: 20px;
+}
+#mainDishesText{
+    font-size: 15px;
+    color: rgb(31, 24, 25);
+}
+.card-title{
+    color: rgb(31, 24, 25);
+    font-size: 25px;
+}
+.card-text{
+    color: blueviolet;
+}
+.alert{
+    font-size: 20px;
+}
+
+/* test ll contact*/
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: rgb(140, 141, 77);
+}
+#contact{
+    width: 900px;
+}
+.card-body{
+    font-size: 35px;
+}
+.card-text{
+    color: rgb(140, 141, 77);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    margin-bottom: 5%;
+}
+/*end test*/
+.footer{
+    height: 30%;
+    margin-bottom: 0%;
+    width: 100%;
+    color: rgb(140, 141, 77);
+    text-align: center;
+}
+

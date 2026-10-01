@@ -1,0 +1,39 @@
+.navbar-nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.nav-item{
+    justify-content: start;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: rgb(140, 141, 77);
+}
+.container{
+    width: 900px;
+}
+.card-body{
+    font-size: 35px;
+}
+.card-text{
+    color: rgb(140, 141, 77);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    margin-bottom: 5%;
+}
+
+.footer{
+    height: 40%;
+    margin-bottom: 0%;
+    width: 100%;
+    color: rgb(140, 141, 77);
+    text-align: center;
+}
+
+

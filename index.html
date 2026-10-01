@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.5-dist/css/bootstrap.min.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>menu</title>
+</head>
+<body class="home">
+
+    <nav class="navbar navbar-expand-sm bg-dark
+     fixed-top navbar-light justify-content-center">
+   
+     <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/goldlogo.png" alt="logo" style="width: 60px;" class="rounded-pill"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: rgb(140, 141, 77);">HOME</a>
+            </li>
+            <li class="nan-item">
+                <a class="nav-link" href="BLOG.html" style="color: rgb(140, 141, 77);">BLOG</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact" style="color: rgb(140, 141, 77);">CONTACT</a>
+            </li>
+        </ul>
+
+        <form class="search-box d-felx">
+            <div class="search input-group mb-3">
+                <input type="text" class="search form-control" placeholder="Search" style="border-style: none;">
+                    <button class="search-btn btn btn-success" style="border-style: none;" type="submit">
+                        <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    </nav>
+    
+    <div class="carousel" id="carousel-design">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item carousel-img  active">
+                <img src="images/chinesebg.jpg" alt="chineseChef" class="d-block w-100">
+                <div class="carousel-caption text-end top-50 translate-middle-y start-0 position-absolute">
+                    <h3 class="name">The Sweet</h3>
+                    <h2 class="name">Recipe</h2>
+                </div>
+            </div>
+            <div class="carousel-img carousel-item">
+                <img src="images/desserts/tiramisubg.jpg" alt="tiramisu" class="d-block w-100">
+                <div class="carousel-caption custom-caption">
+                    <h3 class="quote">Crafted with Love</h3>
+                    <h2 class="quote">   Served with Elegance.</h2>
+                </div>
+            </div>
+            <div class="carousel-img carousel-item">
+                <img src="images/desserts/croissantbg.jpg" alt="croissant" class="d-block w-100">
+            </div>
+        </div>
+
+           <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+           </button>
+
+    </div>
+    </div>
+
+
+    <ul class="nav nav-tabs nav-justified pt-1 bg-dark" >
+        <li class="nav-item" >
+            <a class="nav-link active" id="nav-menu" data-bs-toggle="tab" href="#main" role="tab" aria-controls="main" aria-selected="true">MAIN</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="nav-menu" data-bs-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">DRINKS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="nav-menu" data-bs-toggle="tab" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">DESSERTS</a>
+        </li>
+    </ul>
+
+     <div class="tab-content pt-2" >
+        <div class="tab-pane container active" id="main">
+
+            <div class="row pt-1">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/beefyakitori.jpg" class="rounded card-img-top" alt="beefyakitori">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes">BEEF YAKITORI $20.00</h4>
+                            <p class="card-text" id="mainDishesText"> Beef fillet, mixed vegetables served with our special yakitori sauce.</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/salmonteriyaki.jpg" class="rounded card-img-top" alt="salmonteriyaki">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes">SALMON TERIYAKI $22.50</h4>
+                            <p class="card-text" id="mainDishesText">Grilled Salmon Served with teriyaki sauce and steamed rice.</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/steamedshrimpdumplings.jpg" class="rounded card-img-top" alt="steemedshrimpdumplings">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes">STEAMED SHRIMP DUMPLINGS $10.50</h4>
+                            <p class="card-text" id="mainDishesText">Served with sweet chili sauce</p>
+                            <div class="alert alert-info w-75"><strong>NEW!</strong> Taste our new dish!</div>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/4cheesepasta.jpg" class="rounded card-img-top" alt="4cheesepasta">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes">FOUR CHEESE PASTA $9.50</h4>
+                            <p class="card-text" id="mainDishesText">Penne mixed with tomato sauce or white sauce and our selection of cheeses, topped with parmesan sprinkles.</p>
+                            <button class="btn btn-primary  bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/alfredopasta.jpg" class="rounded card-img-top" alt="alfredopasta">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes">ALFREDO PASTA $14.50</h4>
+                            <P class="card-text" id="mainDishesText">Tagliatelle in a creamy sauce with a twist of garlic, grilled chicken and sauteed fresh mushrooms, topped with parmesan sprinkles
+                                and basil.</P>
+                            <button class="btn btn-primary bi bi-cart "> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/shrimpspasta.jpg" class="rounded card-img-top" alt="shrimpspasta">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes"> SHRIMP PASTA $16.00</h4>
+                            <p class="card-text" id="mainDishesText">Tagliatelle in a creamy sauce with a twist of garlic, juicy flame-grilled shrimps and sauteed fresh mushrooms, topped with parmesan
+                                sprinkles and basil.</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/classicburger.jpg" class="rounded card-img-top" alt="classicBurger">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes">CLASSIC BURGER $11.10</h4>
+                            <P class="card-text" id="mainDishesText">Grilled beef patty topped with grilled red onions, melted cheddar cheese, crisp lettuce, a fresh tomato slice, and tangy pickles.</P>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/chickenburger.jpg" class="rounded card-img-top" alt="chickenburger">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes">CHICKEN BURGER $8.75</h4>
+                            <P class="card-text" id="mainDishesText">Grilled chicken breast topped with crisp lettuce, a fresh tomato slice, and tangy pickles.</P>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/mainDishes/doubleburger.jpg" class="rounded card-img-top" alt="doubleBurger">
+                        <div class="card-body">
+                            <h4 class="card-title" id="mainDishes" >DOUBLE BURGER $17.95</h4>
+                            <P class="card-text" id="mainDishesText">Extra beef-our burger featuring double beef patties and cheese.</P>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tab-pane container fade" id="drinks">
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/espresso.jpg" 
+                        class="rounded card-img-top" alt="espresso">
+                            <div class="card-body">
+                                <h4 class="card-title">ESPRESSO</h4>
+                                <p class="card-text" >$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/cappuccino.jpg" 
+                        class="rounded card-img-top" alt="cappuccino">
+                            <div class="card-body">
+                                <h4 class="card-title">CAPPUCCINO</h4>
+                                <p class="card-text">$4.22</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/hotchocolate.jpg" 
+                        class="rounded card-img-top" alt="hotchocolate">
+                            <div class="card-body">
+                                <h4 class="card-title">HOT CHOCOLATE</h4>
+                                <p class="card-text">$4.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/icedcaramellatte.jpg" class="rounded card-img-top" alt="icedcaramellatte">
+                        <div class="card-body">
+                            <h4 class="card-title">ICED CARAMEL LATTE</h4>
+                            <p class="card-text">$4.83</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/icedcoffee.jpg" class="rounded card-img-top" alt="icedcoffe">
+                        <div class="card-body">
+                            <h4 class="card-title">ICED COFFEE</h4>
+                            <p class="card-text">$4.17</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/mintedlemonade.jpg" class="rounded card-img-top" alt="mintedlemonade">
+                        <div class="card-body">
+                            <h4 class="card-title">MINTED LEMONADE</h4>
+                            <p class="card-text">$3.72</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/oreomilkshake.jpg" class="rounded card-img-top" alt="oreomilkshake">
+                        <div class="card-body">
+                            <h4 class="card-title">OREO MILKSHAKE</h4>
+                            <p class="card-text">$6.72</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/strawberrymilkshake.jpg" class="rounded card-img-top" alt="strawberrymilkshake">
+                        <div class="card-body">
+                            <h4 class="card-title">STRAWBERRY MILKSHAKE</h4>
+                            <p class="card-text">$6.67</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/drinks/chocolatemilkshake.jpg" class="rounded card-img-top" alt="chocolatemilkshake">
+                        <div class="card-body">
+                            <h4 class="card-title">CHOCOLATE MILKSHAKE</h4>
+                            <p class="card-text">$6.72</p>
+                            <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane container fade" id="desserts">
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/affogato.jpg" 
+                        class="rounded card-img-top" alt="affogato">
+                            <div class="card-body">
+                                <h4 class="card-title">AFFOGATO</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/profiterole.jpg" 
+                        class="rounded card-img-top" alt="profiterole">
+                            <div class="card-body">
+                                <h4 class="card-title">PROFITEROLE</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/tiramisu.jpg" 
+                        class="rounded card-img-top" alt="tiramisu">
+                            <div class="card-body">
+                                <h4 class="card-title">TIRAMISU</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart" > ORDER</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/chocolatefondant.jpg" 
+                        class="rounded card-img-top" alt="chocolatefondant">
+                            <div class="card-body">
+                                <h4 class="card-title">CHOCOLATE FONDANT</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary  bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/chocolatecalzone.jpg" 
+                        class="rounded card-img-top" alt="chocolatecalzone">
+                            <div class="card-body">
+                                <h4 class="card-title">CHOCOLATE CALZONE</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/chocolatebrownie.jpg" 
+                        class="rounded card-img-top" alt="chocolatebrownie">
+                            <div class="card-body">
+                                <h4 class="card-title">CHOCOLATE BROWNIE</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/gelato.jpg" 
+                        class="rounded card-img-top" alt="gelato">
+                            <div class="card-body">
+                                <h4 class="card-title">GELATO</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/strawberrycheesecake.jpg" 
+                        class="rounded card-img-top" alt="strawberrycheesecake">
+                            <div class="card-body">
+                                <h4 class="card-title">STRAWBERRY CHEESECAKE</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card w-75">
+                        <img src="images/desserts/strawberrytart.jpg" 
+                        class="rounded card-img-top" alt="strawberrytart">
+                            <div class="card-body">
+                                <h4 class="card-title">STRAWBERRY TART</h4>
+                                <p class="card-text">$2.00</p>
+                                <button class="btn btn-primary bi bi-cart"> ORDER</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+</div>
+  
+  <div class="footer bg-dark mt-2"> 
+
+    <div class="container" id="contact">
+        <div class="card bg-dark">
+            <div class="card-body"><h4 class="contactBody">WE ARE ALL EARS</h4></div>
+            
+  <label for="comment">Leave us a message:</label>
+  <textarea class="form-control w-75" rows="3" id="comment" name="text">
+</textarea>
+
+            <div class="form-floating mb-3 mt-3 w-75">
+                <input type="name" class="form-control" id="name" placeholder="name" name="name"></input>
+                <label for="name">Name</label>
+            </div>
+
+            <div class="form-floating mb-3 mt-3 w-75">
+                <input type="email" class="form-control" id="email" placeholder="email" name="email"></input>
+                <label for="email">email</label>
+            </div>
+            <label class="form-check-label">
+                <input class="form=check-input" type="checkbox" name="remember">remember me
+            </label>
+            <buttton class="btn btn-danger">send</button>
+            </div>
+                <div class="card-text">YOU CAN ALSO EMAIL: sweetrecipe@gmail.com OR CALL US ON: +96100000000 </div>
+    </div>
+
+
+
+    <div class="row pt-2">
+        <div class="col-lg-4">
+            <h4 class="bi bi-geo-alt fs-4"> LOCATION</h4>
+            <p>Nabih Berry Street, </p>
+            <p>Beach, Tyre</p>
+        </div>
+        <div class="col-lg-4">
+            <h4 class="bi bi-clock"> OPENING HOURS</h4>
+            <p>8 AM - 2 AM</p>
+        </div>
+        <div class="col-lg-4">
+            <h4>CONTACT US ON:</h4>
+            <div>
+            <p class="bi bi-telephone"> +96100000000</p>
+        </div>
+            <p class="bi bi-envelope">  sweetrecipe@gmail.com</p>
+            <p class="bi bi-instagram">  @sweetrecipe</p>
+            <p class="bi bi-facebook">  Sweet Recipe</p>
+        </div>
+    </div>
+    <p>© 2025 THE SWEET RECIPE | ALL RIGHTS RESERVED</p>
+  </div>
+
+
+    <script src="bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

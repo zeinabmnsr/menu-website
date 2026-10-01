@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgb(140, 141, 77), rgb(19, 17, 17));
+}
+.card{
+    /*display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 200px;
+    color: rgb(140, 141, 77);
+    border-radius: 50px;
+    background-color: rgb(19, 17, 17); 
+    box-shadow: -5px 0px 85px black;
+}
+.card-body{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    color: rgb(140, 141, 77);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    color: rgb(19, 17, 17);
+    background-color: rgb(140, 141, 77);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    border: none;
+}
+:hover.btn{
+    background-color: rgb(65, 61, 61);
+    color: rgb(140, 141, 77);
+}
