@@ -38,3 +38,30 @@ body{
     background-color: rgb(65, 61, 61);
     color: rgb(140, 141, 77);
 }
+
+/* Responsive */
+
+@media (max-width: 575px) {
+    .card {
+        width: 90% !important;
+        margin-top: 100px;
+    }
+
+    .card-body {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+
+    .form-floating {
+        width: 100% !important;
+    }
+
+    .btn {
+        width: 75% !important;
+        height: auto !important;
+    }
+}

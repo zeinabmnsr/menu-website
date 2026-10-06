@@ -10,34 +10,74 @@
 </head>
 <body class="home">
 
-    <nav class="navbar navbar-expand-sm bg-dark
-     fixed-top navbar-light justify-content-center">
-   
-     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="images/goldlogo.png" alt="logo" style="width: 60px;" class="rounded-pill"></a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="#" style="color: rgb(140, 141, 77);">HOME</a>
-            </li>
-            <li class="nan-item">
-                <a class="nav-link" href="BLOG.html" style="color: rgb(140, 141, 77);">BLOG</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#contact" style="color: rgb(140, 141, 77);">CONTACT</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-light justify-content-center">
 
-        <form class="search-box d-felx">
-            <div class="search input-group mb-3">
-                <input type="text" class="search form-control" placeholder="Search" style="border-style: none;">
-                    <button class="search-btn btn btn-success" style="border-style: none;" type="submit">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">
+            <img src="images/goldlogo.png"
+                 alt="logo"
+                 style="width: 60px;"
+                 class="rounded-pill">
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active"
+                       href="#"
+                       style="color: rgb(140, 141, 77);">
+                        HOME
+                    </a>
+                </li>
+
+                <li class="nan-item">
+                    <a class="nav-link"
+                       href="BLOG.html"
+                       style="color: rgb(140, 141, 77);">
+                        BLOG
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="#contact"
+                       style="color: rgb(140, 141, 77);">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+
+            <form class="search-box d-felx">
+                <div class="search input-group mb-3">
+                    <input type="text"
+                           class="search form-control"
+                           placeholder="Search"
+                           style="border-style: none;">
+
+                    <button class="search-btn btn btn-success"
+                            style="border-style: none;"
+                            type="submit">
                         <i class="bi bi-search"></i>
-                </button>
-            </div>
-        </form>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
     </div>
-    </nav>
+</nav>
     
     <div class="carousel" id="carousel-design">
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -432,7 +472,7 @@
             <label class="form-check-label">
                 <input class="form=check-input" type="checkbox" name="remember">remember me
             </label>
-            <buttton class="btn btn-danger">send</button>
+            <button class="btn btn-danger">send</button>
             </div>
                 <div class="card-text">YOU CAN ALSO EMAIL: sweetrecipe@gmail.com OR CALL US ON: +96100000000 </div>
     </div>
