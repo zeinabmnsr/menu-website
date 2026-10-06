@@ -296,3 +296,13 @@
         width: 100%;
     }
 }
+
+@media (max-width: 575px) {
+    .navbar-toggler {
+        border-color: rgb(140, 141, 77);
+    }
+
+    .navbar-toggler-icon {
+        filter: none;
+    }
+}
